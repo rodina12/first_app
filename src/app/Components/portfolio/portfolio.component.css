@@ -1,0 +1,27 @@
+section {
+    color: black;
+}
+
+.star {
+    position: relative;
+}
+.star::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 200px;
+    background-color: black;
+    border-radius: 3px;
+}
+.fa-star {
+    padding: 0 5px;
+    background-color: white;
+    z-index: 2;
+}
+.fa-star::before {
+    padding: 0 10px;
+    background-color: #fff;
+    width: 100px;
+    height: 2px;
+    z-index: 1;
+}

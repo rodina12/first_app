@@ -1,0 +1,31 @@
+* {
+    transition: .3s;
+}
+.pointer {
+    cursor: pointer !important;
+}
+
+.bg-nav {
+    background-color: #2c3e50 !important;
+}
+
+.nav-link {
+    font-weight: 600 !important;
+}
+
+.navbar-brand h3 {
+    color: #FFF;
+    font-weight: 800 !important;
+}
+
+li a {
+    color: #FFF;
+}
+
+li a:hover {
+    color: #1ABC9C;
+}
+.activeLink{
+    background-color: #1ABC9C;
+ border-radius: 5px;
+}

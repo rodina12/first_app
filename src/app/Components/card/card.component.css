@@ -1,0 +1,19 @@
+.card {
+    position: relative;
+    font-size: 50px !important;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1abc9cbb;
+    opacity: 0;
+    border-radius: 5px;
+    transition: .3s;
+}
+.layer:hover{
+    opacity: 1;
+}

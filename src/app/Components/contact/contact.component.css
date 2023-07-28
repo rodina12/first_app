@@ -1,0 +1,45 @@
+input,
+textarea {
+    outline: none;
+    border: none;
+}
+
+.col-8 {
+    border-bottom:3px solid #3e3e3e3e;
+}
+
+.btn-green {
+    background-color: #0edbb2;
+    transition: .3s;
+}
+
+.btn-green:hover {
+    /* #1ABC9C */
+    background-color: #1ABC9C;
+
+}
+
+
+.star {
+    position: relative;
+}
+.star::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 200px;
+    background-color: #2C3E50;
+    border-radius: 3px;
+}
+.fa-star {
+    padding: 0 5px;
+    z-index: 2;
+}
+.fa-star::before {
+    padding: 0 10px;
+    /* background-color: #1ABC9C; */
+    width: 100px;
+    height: 2px;
+    z-index: 1;
+    background-color: #fff;
+}

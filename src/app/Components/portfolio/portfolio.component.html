@@ -1,0 +1,8 @@
+<section class="text-center container">
+    <h2 class="mt-5 pt-5">PORTFOLIO</h2>
+    <div class="star my-2 d-flex justify-content-center align-items-center"><i class="fa-solid fa-star"></i></div>
+
+    <div class="row">
+        <app-card class="col-md-4" *ngFor="let source of sources" [Src]="source"></app-card>
+    </div>
+</section>
